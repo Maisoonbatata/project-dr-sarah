@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAFFLE ART </title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="submit.js" />
+</head>
+<body>
+  <header>
+      <h1> WAFFLE ART💛. </h1>
+
+</header>
+<div class="container">
+    <form action="action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname"> Your Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="yourname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="number"> Your Phone Number </label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="yourname" placeholder="your phone for easily contact.." maxlength="11" required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Address</label required>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your Address..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country" >
+            <option value="australia">Tanta</option>
+            <option value="canada">Elma7ala</option>
+            <option value="usa">Kafr-elshiekh</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Order">Your Order</label>
+        </div>
+        <div class="col-75">
+          <textarea id="Order" name="Order" placeholder="your favourite items.." style="height:200px"></textarea>
+        </div>
+      </div>
+     
+      <div class="row">
+        <a href="submit.html">
+              <input type="submit"value="Submit" > 
+        </a>
+      </div>
+
+
+
+      <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+      </a>
+      
+      <script src="./assets/js/script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </form>
+  </div>
+  </body>
+</html>
